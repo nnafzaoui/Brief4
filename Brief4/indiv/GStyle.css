@@ -1,0 +1,531 @@
+.container {
+              position: absolute;
+              text-align: right;
+              height: 70px;
+              width: 100%;
+              line-height: 70px;
+              z-index: 1;
+              margin-left: 0;
+              overflow: hidden;
+        }
+        #logoo{
+              float: left;
+              margin-left: 20px;
+              margin-top: 25px;
+              z-index: 2;
+        }
+        label{
+            color: white;
+            margin: 0 40px 0 0;
+            font-size: 26px;
+            line-height: 70px;
+            display: none;
+        }
+        #toggle{
+            display:none;
+        }
+        .menu{  
+            position: absolute;
+            overflow: hidden;
+            width: 100%;
+            font-family: 'Raleway';
+            height: 50px;
+            padding: 10px 10px;
+        }
+
+        .menu a{   
+            font-family: 'Raleway';
+            color: white;
+            font-size: 14px; 
+            margin: 0 30px 0 20px;
+            line-height: 60px;
+            text-decoration: none;
+        }
+        #title{
+            font-family: 'Raleway';
+            color: white;
+            position: absolute;
+            margin-top: 16%;
+            margin-left: 5%;
+            letter-spacing: 7px;
+            font-size: 5vw;
+}
+        #subtitile1{
+            font-family: 'Raleway';
+            color: white;
+            position: absolute;
+            margin-top: 23%;
+            margin-left: 5%;
+            font-size: 1.5vw;
+}
+        .explore {
+            font-family: 'Raleway';
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+            border-radius: 100px;
+            background-color:white;
+            color: black;
+            text-align: center;
+            font-size: 18px; 
+            width: 150px;
+            height: 60px;
+            position: absolute;
+            margin-top: 400px;
+            margin-left: 5%;
+}
+        #tower{
+            width: 100%;
+}
+        .PH1{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+        .PH1 img{
+            width: 100%;
+            height: 100%;
+        }
+        .PH1 div{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 50%;
+            line-height: 30px;
+        }
+        .ftrImage{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url(img/ftrImage.png);
+            height: 200px;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+        .ftrImage div h2{
+            color: white;
+        }
+        .ftrImage div p{
+            color: white;
+        }
+        .ftrImage div{
+            line-height: 30px;
+       }
+        .ftrImage div input{
+            color: black;
+            width: 500px;
+            height: 50px;
+            background-color: white;
+        }
+        .ftrImage div button{
+            width: 200px;
+            height: 50px;
+            color: white;
+            background-color:#C49D48; 
+        }
+        .lastdiv{
+            height: 500px;
+        }
+        .contactus1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 5%;
+            color: #688095;
+        }
+        .ftrdiv1{
+            display: flex;
+            flex-direction: column;
+        }
+        .contactus1 div{
+            width: 10%;
+            font-size: 12px;
+        }
+        @media only screen and (max-width: 768px){
+            .PH1{
+                flex-direction: column;
+            }
+            .PH1 div{
+                width: 100%;
+            }
+            .container{
+            position: fixed;
+            width: 100%;
+            background-color: black;
+            border-bottom: 2px solid #000000;
+            }
+            label{
+            display: block;
+            cursor: pointer;  
+            }
+            #toggle:checked + .menu{
+            display: block;     
+            }
+            #logoo{ 
+            position: fixed;
+            margin-left: -65%;
+            
+            }
+            a{
+            display: block;
+            }
+            .menu  {
+            position: fixed;
+            text-align: center;
+            font-size: 16px;
+            display: none;
+            width: 100%;
+            height:400px;
+            font-family: 'Raleway';
+            overflow: hidden;
+            background-color: black;
+          }
+            .contactus1{
+               font-size: 5px;
+            }
+        }
+        @media only screen and (max-width: 440px){
+            #title{
+                font-size: 10px;
+            }
+             .ftrImage div input{
+            width: 200px;
+            height: 20px;
+            
+        }
+        .ftrImage div button{
+            width: 100px;
+            height: 20px;
+        }
+        .contactus1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 5%;
+            color: #688095;
+        }
+        .ftrdiv1{
+            display: flex;
+            flex-direction: column;
+        }
+            .ftrdiv1 img{
+                width: 70%;
+            }
+        .contactus1 div{
+            width: 90%;
+            font-size: 10px;
+        }
+        }
+
+
+.container {
+              position: absolute;
+              text-align: right;
+              height: 70px;
+              width: 100%;
+              line-height: 70px;
+              z-index: 1;
+              overflow: hidden;
+        }
+        #logoo{
+              float: left;
+              margin-left: 20px;
+              margin-top: 25px;
+              z-index: 2;
+        }
+    #tower{
+            width: 100%;
+}
+        label{
+            color: white;
+            margin: 0 40px 0 0;
+            font-size: 26px;
+            line-height: 70px;
+            display: none;
+        }
+        #toggle{
+            display:none;
+        }
+        .menu{  
+            position: absolute;
+            overflow: hidden;
+            width: 100%;
+            font-family: 'Raleway';
+            height: 50px;
+            padding: 10px 10px;
+        }
+
+        .menu a{   
+            font-family: 'Raleway';
+            color: white;
+            font-size: 14px; 
+            margin: 0 30px 0 20px;
+            line-height: 60px;
+            text-decoration: none;
+        }
+        #title{
+            font-family: 'Raleway';
+            color: white;
+            position: absolute;
+            margin-top: 16%;
+            margin-left: 5%;
+            letter-spacing: 7px;
+            font-size: 2.5vw;
+}
+        #subtitile1{
+            font-family: 'Raleway';
+            color: white;
+            position: absolute;
+            margin-top: 20%;
+            margin-left: 5%;
+            font-size: 1vw;
+}
+    .NNdiv1Parent{
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .NNdiv1{
+        width: 90%;
+        height: 200px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        font-size: 18px;
+        border: 2px solid #707070;
+    }
+    .NNdiv1 img{
+         width: 260px;
+    }
+    .plane1{
+        margin-top: 30px;
+        background-color: black;
+        width: 30.65%;
+       
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: white;
+        text-align: center;
+        font-size: 1.2vw;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.8;
+    }
+    .plane1 img{
+        width: 100%;
+    }
+    .plane1:hover{
+        opacity: 1;
+    }
+    #butona{
+        margin-top: 10px;
+        background-color: white;
+        font-weight: 500;
+        border: 2px solid;
+        border-radius: 50px;
+        width: 30%;
+        height: 40px;
+    }
+    #butona:hover{
+        background-color: silver;
+    }
+    .BOSS{
+        margin-top: 5%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .CHILD{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .lastdiv{
+        margin-top: 10%;
+            height: 500px;
+        }
+    .ftrImage{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url(img/ftrImage.png);
+            height: 200px;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+        .ftrImage div h2{
+            color: white;
+        }
+        .ftrImage div p{
+            color: white;
+        }
+        .ftrImage div{
+            line-height: 30px;
+       }
+        .ftrImage div input{
+            color: white;
+            width: 500px;
+            height: 50px;
+            background-color: white;
+        }
+        .ftrImage div button{
+            width: 200px;
+            height: 50px;
+            color: white;
+            background-color:#C49D48; 
+        }
+    .contactus1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 5%;
+            color: #688095;
+        }
+        .ftrdiv1{
+            display: flex;
+            flex-direction: column;
+        }
+        .contactus1 div{
+            width: 10%;
+            font-size: 12px;
+        }
+    @media only screen and (max-width: 768px){
+        .BOSS{
+        margin-top: 10%;
+        flex-direction: row;
+        }
+        .CHILD{
+        flex-direction: column;
+        }
+        .NNdiv1Parent p{
+            margin-top:2%;
+            font-size: 10px;
+        }
+        .NNdiv1{
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+        .NNdiv1 img{
+            width: 160px;
+            height: 150px
+        }
+        .plane1{
+            width:80%;
+        }
+        
+        .container{
+            position: fixed;
+            width: 100%;
+            background-color: black;
+            border-bottom: 2px solid #000000;
+            }
+            label{
+            display: block;
+            cursor: pointer;  
+            }
+            #toggle:checked + .menu{
+            display: block;     
+            }
+            #logoo{ 
+            position: fixed;
+            margin-left: -65%;
+            
+            }
+            a{
+            display: block;
+            }
+            .menu  {
+            position: fixed;
+            text-align: center;
+            font-size: 16px;
+            display: none;
+            width: 100%;
+            height:400px;
+            font-family: 'Raleway';
+            overflow: hidden;
+            background-color: black;
+          }
+    }
+    @media only screen and (max-width: 363px){
+       body{
+        margin: 0px;
+        width: 360px;
+     }
+  .container{
+        position: fixed;
+        width: 396px;
+        background-color: black;
+        border-bottom: 2px solid #000000;
+  }
+     #logoo{ 
+      position: fixed;
+        margin-left: -75%;
+        margin-top: 5%;
+    }
+       
+  label{
+         display: block;
+         cursor: pointer;  
+      }
+
+  a{
+         display: block;
+    }
+      
+  .menu  {
+          position: fixed;
+          text-align: center;
+          font-size: 16px;
+          display: none;
+          width: 100%;
+          height:400px;
+          font-family: 'Montserrat';
+          overflow: hidden;
+          background-color: black;
+          }
+         
+
+         #toggle:checked + .menu{
+         display: block;     
+         }
+      
+    }
+     @media only screen and (max-width: 440px){
+            #title{
+                font-size: 10px;
+            }
+             .ftrImage div input{
+            width: 200px;
+            height: 20px;
+            
+        }
+        .ftrImage div button{
+            width: 100px;
+            height: 20px;
+        }
+        .contactus1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 5%;
+            color: #688095;
+        }
+        .ftrdiv1{
+            display: flex;
+            flex-direction: column;
+        }
+            .ftrdiv1 img{
+                width: 70%;
+            }
+        .contactus1 div{
+            width: 90%;
+            font-size: 10px;
+        }
+        }
